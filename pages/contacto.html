@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnorush</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bodycontactos">
+    <!-- Cabeza -->
+    <header>
+        <h1>Tecnorush</h1>
+        <!-- Barra de navegacion -->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form name="formDatosPersonales">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" />
+
+            <label for="apellidos">Apellido</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tu apellido" />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Escribe tu email" required />
+
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto" id="asunto" placeholder="Motivo de la consulta" />
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" for="mensaje" placeholder="Describe tu consulta en menos de 300 caracteres"
+                maxlength="300"></textarea>
+
+            <input type="submit" name="enviar" value="Enviar consulta" />
+        </form>
+    </main>
+    <footer>
+        <section>
+            <h2>© 2024 Tecnorush Corporation <img src="../img/argentina.png" alt=""></h2>
+        </section>
+    </footer>
+</body>
+
+</html>

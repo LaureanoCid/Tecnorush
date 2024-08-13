@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+    color: #3F52E0;    
+    font-family: "Source Sans 3", sans-serif;
+    background-image: url("../img/fondospestañas/fondoindex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;       
+    height: 100vh; 
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+
+/* Logotipo y barra de navegacion */
+
+header h1 {
+    text-align: center;
+    margin-left: 10px;
+    font-family: "Inter Tight", sans-serif;
+    color: #eaedef;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #eaedef;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #3F52E0;
+    background-color: #eaedef;
+}
+
+/* Cuerpo del sitio */
+main section h2 {
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    font-size: 35px;
+    align-content: center;
+    height: 600px;
+    color: #eaedef;
+}
+
+.muestra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    border: 2px solid red;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+/* Pie de pagina */
+
+footer {      
+    display: flex; 
+    position: absolute;
+    bottom: 0;    
+    margin-left: 44%;
+    color: #eaedef;
+}
+
+footer section h2 img{
+    height: 20px;
+}
+
+/*? INDEX */
+
+/* .bodyindex header{
+} */
+
+/*? NOSOTROS */
+
+.heronosotros{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.descripcion{
+    color: #eaedef;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*? PRODUCTOS */
+
+.contenedor1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eaedef;
+}
+
+.productos2{
+    width: 300px;
+    height: 350px;
+    border: 2px solid #eaedef;
+    margin: 20px;
+    text-align: center;
+    color: #eaedef;
+    background-color: #212121;
+}
+.productos2 img{
+    width: 100%;
+    height: 80%;
+}
+
+/*? SERVICIOS */
+
+.bodyservicios header{
+    margin-bottom: 200px;
+}
+
+.bodyservicios main h2{
+    color: #eaedef;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.mainservicios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicios1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eaedef;
+}
+
+.servicios2{
+    width: 300px;
+    height: 350px;
+    border: 2px solid #eaedef;
+    margin: 20px;
+    text-align: center;
+    color: #eaedef;
+    background-color: #212121;
+}
+
+.servicios2 img{
+    width: 100%;
+    height: 80%;
+}
+
+
+
+/*? CONTACTO */
+
+.bodycontactos header{
+    margin-bottom: 300px;
+}
+
+form{    
+	width:500px;
+	padding:40px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#212121;
+} 
+
+form label{
+    width: 120px;
+    font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:240px;
+	padding:3px 6px;
+	border:1px solid #eaedef;
+	border-radius:3px;
+	background-color:#eaedef;
+	margin:4px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 6px;
+	margin-top:2px;
+	border:1px solid #212121;
+	border-radius:5px;
+	display:block;
+	color:#3F52E0;
+	background-color:#eaedef;
+}
+
+textarea{
+	width:100%;
+	height:200px;
+	border:1px solid #eaedef;
+	border-radius:3px;
+	background-color:#eaedef;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
