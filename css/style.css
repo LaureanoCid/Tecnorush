@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
@@ -52,6 +53,11 @@ header nav ul li a {
 }
 
 /* Cuerpo del sitio */
+
+main{
+    height: 1100px;
+}
+
 main section h2 {
     text-align: center;
 }
@@ -79,9 +85,8 @@ main section h2 {
 
 footer {      
     display: flex; 
-    position: absolute;
-    bottom: 0;    
-    margin-left: 44%;
+    width: 100%;
+    justify-content: space-around;
     color: #eaedef;
 }
 
