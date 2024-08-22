@@ -21,7 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-radius: 7px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 /* Logotipo y barra de navegacion */
@@ -130,7 +130,7 @@ footer section h2 img{
     width: 300px;
     height: 350px;
     border: 2px solid #eaedef;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     color: #eaedef;
     background-color: #212121;
