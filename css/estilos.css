@@ -73,6 +73,9 @@ main section h2 {
   text-align: center;
   font-size: 25px; }
 
+.mainproductos {
+  padding-bottom: 100px; }
+
 .contenedor1 {
   display: flex;
   justify-content: space-around; }
