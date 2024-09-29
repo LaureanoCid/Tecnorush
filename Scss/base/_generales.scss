@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+    color: #3F52E0;    
+    font-family: "Source Sans 3", sans-serif;
+    background-image: url("../img/fondospestañas/fondoindex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;       
+    height: 100vh; 
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 40px;
+}

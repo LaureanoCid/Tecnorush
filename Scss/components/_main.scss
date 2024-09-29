@@ -1,0 +1,165 @@
+main{
+    height: 1100px;
+}
+
+main section h2 {
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    font-size: 35px;
+    align-content: center;
+    height: 600px;
+    color: #eaedef;
+}
+
+.muestra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    border: 2px solid red;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+// Nosotros
+
+.heronosotros{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.descripcion{
+    color: #eaedef;
+    text-align: center;
+    font-size: 25px;
+}
+
+// Productos
+
+.contenedor1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eaedef;
+}
+
+.productos2{
+    width: 300px;
+    height: 350px;
+    border: 2px solid #eaedef;
+    margin: 10px;
+    text-align: center;
+    color: #eaedef;
+    background-color: #212121;
+}
+.productos2 img{
+    width: 100%;
+    height: 80%;
+}
+
+// Servicios
+
+.bodyservicios header{
+    margin-bottom: 200px;
+}
+
+.bodyservicios main h2{
+    color: #eaedef;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.mainservicios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicios1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eaedef;
+}
+
+.servicios2{
+    width: 300px;
+    height: 350px;
+    border: 2px solid #eaedef;
+    margin: 20px;
+    text-align: center;
+    color: #eaedef;
+    background-color: #212121;
+}
+
+.servicios2 img{
+    width: 100%;
+    height: 80%;
+}
+
+
+// Contacto
+
+.bodycontactos header{
+    margin-bottom: 200px;
+}
+
+form{    
+	width:500px;
+	padding:40px;
+	border-radius:10px;
+	margin: 0 auto;
+	background-color:#212121;
+    background-image: linear-gradient(#2121219a,#3f52e0a2);
+    color: #3F52E0;
+} 
+
+form label{
+    width: 120px;
+    font-weight:bold;
+	display:inline-block;    
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:240px;
+	padding:3px 6px;
+	border:1px solid #eaedef;
+	border-radius:3px;
+	background-color:#eaedefa4;
+	margin:4px 0;
+	display:inline-block;
+}
+
+textarea{
+	width:100%;
+	height:200px;
+	border:1px solid #eaedef;
+	border-radius:3px;
+	background-color:#eaedefa4;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 6px;
+	margin-top:2px;
+	border:1px solid #eaedef;
+	border-radius:5px;
+	display:block;
+	color:#3F52E0;
+	background-color:#eaedefa4;
+}

@@ -1,0 +1,25 @@
+header h1 {
+    text-align: center;
+    margin-left: 10px;
+    font-family: "Inter Tight", sans-serif;
+    color: #eaedef;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #eaedef;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #3F52E0;
+    background-color: #eaedef;
+}
