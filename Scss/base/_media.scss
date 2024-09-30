@@ -3,13 +3,13 @@
 
 .mainproductos{
     .contenedor1{
-        display: inline;
+        display: flex;
         .productos1{
             .productos2{
                 height: 150px;
                 width: 150px;
                 p{
-                    font-size: 15px;
+                    font-size: 10px;
                 }
             }
         }

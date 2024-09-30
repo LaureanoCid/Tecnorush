@@ -195,12 +195,12 @@ footer section h2 img {
 
 @media screen and (max-width: 1050px) {
   .mainproductos .contenedor1 {
-    display: inline; }
+    display: flex; }
     .mainproductos .contenedor1 .productos1 .productos2 {
       height: 150px;
       width: 150px; }
       .mainproductos .contenedor1 .productos1 .productos2 p {
-        font-size: 15px; } }
+        font-size: 10px; } }
 
 @media screen and (max-width: 650px) {
   .header h1 {
