@@ -192,3 +192,35 @@ footer {
 
 footer section h2 img {
   height: 20px; }
+
+@media screen and (max-width: 1050px) {
+  .mainproductos .contenedor1 {
+    display: inline; }
+    .mainproductos .contenedor1 .productos1 .productos2 {
+      height: 150px;
+      width: 150px; }
+      .mainproductos .contenedor1 .productos1 .productos2 p {
+        font-size: 15px; } }
+
+@media screen and (max-width: 650px) {
+  .header h1 {
+    font-size: 25px; }
+  .header nav {
+    width: 390px; }
+    .header nav ul li {
+      margin-right: 5px; }
+      .header nav ul li a {
+        padding: 2px;
+        font-size: 15px; }
+  .hero img {
+    height: 500px; }
+  .hero p {
+    font-size: 15px; }
+  .heronosotros img {
+    height: 200px; }
+  .descripcion p {
+    font-size: 15px; }
+  .mainproductos {
+    align-items: center; }
+  footer section h2 {
+    font-size: 15px; } }

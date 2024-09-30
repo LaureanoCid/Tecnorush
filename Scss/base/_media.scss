@@ -1,11 +1,83 @@
-// INDEX
-
-
-
-// NOSOTROS
-
+@media screen and (max-width: 1050px){
 // PRODUCTOS
 
-// SERVICIOS
+.mainproductos{
+    .contenedor1{
+        display: inline;
+        .productos1{
+            .productos2{
+                height: 150px;
+                width: 150px;
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
 
-// CONTACTO
+}
+
+@media screen and (max-width: 650px){
+    .header{
+        h1{
+            font-size: 25px;
+        }
+        nav{
+            width: 390px;            
+            ul{
+                li{
+                    margin-right: 5px;
+                    a{
+                        padding: 2px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    // INDEX
+    .hero{
+        img{
+            height: 500px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+
+    // NOSOTROS
+    .heronosotros{
+        img{
+            height: 200px;
+        }        
+    }
+    .descripcion{
+        p{
+            font-size: 15px;
+        }
+    }
+
+    // PRODUCTOS
+    .mainproductos{
+        align-items: center;
+    }
+    
+
+
+    // SERVICIOS
+
+    // CONTACTO
+
+
+
+
+    footer{
+        section{
+            h2{
+                font-size: 15px;
+            }
+        }
+    }
+}
