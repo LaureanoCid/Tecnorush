@@ -1,34 +1,71 @@
-@media screen and (max-width: 1050px){
-// PRODUCTOS
-
-.mainproductos{
-    .contenedor1{
-        display: flex;
-        .productos1{
-            .productos2{
-                height: 150px;
-                width: 150px;
-                p{
-                    font-size: 10px;
+@media screen and (max-width: 1050px) {
+    // PRODUCTOS
+    .mainproductos {
+        .contenedor1 {
+            display: flex;
+            .productos1 {
+                padding-bottom: 15px;
+                .productos2 {
+                    height: 150px;
+                    width: 150px;
+                    p {
+                        font-size: 15px;
+                    }
                 }
             }
         }
     }
+
+    // SERVICIOS
+    .mainservicios {
+        padding-bottom: 110px;
+        .servicios1 {
+            .servicios2 {
+                height: 250px;
+                width: 250px;
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    // CONTACTO
+    .footercontacto {
+        padding-top: 110px;
+    }
 }
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+@media screen and (max-width: 880px) {
+
+    // SERVICIOS
+    .mainservicios {
+        display: inline;
+        align-items: center;
+        .servicios1 {
+            .servicios2 {
+                height: 350px;
+                width: 350px;
+                p {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
 
 }
-
-@media screen and (max-width: 650px){
-    .header{
-        h1{
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+@media screen and (max-width: 650px) {
+    .header {
+        h1 {
             font-size: 25px;
         }
-        nav{
-            width: 390px;            
-            ul{
-                li{
+        nav {
+            width: 390px;
+            ul {
+                li {
                     margin-right: 5px;
-                    a{
+                    a {
                         padding: 2px;
                         font-size: 15px;
                     }
@@ -38,46 +75,115 @@
     }
 
     // INDEX
-    .hero{
-        img{
-            height: 500px;
+    .hero {
+        img {
+            padding-top: 25px;
+            height: 590px;
         }
-        p{
+        p {
             font-size: 15px;
+            padding-top: 25px;
+        }
+    }
+
+    // NOSOTROS
+    .heronosotros {
+        img {
+            height: 200px;
+        }
+    }
+    .descripcion {
+        p {
+            font-size: 15px;
+            padding-bottom: 30px;
+        }
+    }
+
+    // PRODUCTOS
+    .mainproductos {
+        align-items: center;
+        .contenedor1 {
+            display: flex;
+            .productos1 {
+                padding-bottom: 25px;
+            }
+        }
+    }
+
+    // SERVICIOS
+
+    // CONTACTO
+    form {
+        width: 400px;
+        label {
+            font-size: 15px;
+            width: 90px;
+        }
+        #nombre, #apellidos, #email, #asunto{
+            width: 180px;
+        }
+    }
+    .footercontacto {
+        padding-top: 130px;
+    }
+    footer {
+        section {
+            h2 {
+                font-size: 15px;
+            }
+        }
+    }
+}
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+@media screen and (max-width: 540px) {
+
+    // GLOBAL
+    .header{
+        display: inline;
+        nav{
+            width: 85%;
+            margin: 10px;
         }
     }
 
     // NOSOTROS
     .heronosotros{
-        img{
-            height: 200px;
-        }        
+        display: none;
     }
     .descripcion{
-        p{
-            font-size: 15px;
-        }
+        margin-top: 50px;
     }
 
     // PRODUCTOS
     .mainproductos{
-        align-items: center;
+        .contenedor1{
+            display: inline;
+        }
     }
-    
-
-
-    // SERVICIOS
 
     // CONTACTO
+    form {
+        width: 310px;
+        label {
+            font-size: 15px;
+            width: 140px;
+        }
+        #nombre, #apellidos, #email, #asunto{
+            width: 230px;
+            font-size: 15px;
+        }
+    }
+    .footercontacto {
+        padding-top: 50px;
+    }
 
-
-
-
-    footer{
-        section{
-            h2{
+    footer {
+        margin-top: 230px;
+        section {
+            h2 {
                 font-size: 15px;
             }
         }
     }
+
 }

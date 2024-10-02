@@ -21,17 +21,6 @@ main section h2 {
     }
 }
 
-.muestra {
-    display: flex;
-    justify-content: space-between;
-}
-
-.desc {
-    border: 2px solid red;
-    margin-left: 5px;
-    padding: 10px;
-}
-
 // Nosotros
 
 .heronosotros{
@@ -74,14 +63,10 @@ main section h2 {
 }
 .productos2 img{
     width: 100%;
-    height: 80%;
+    height: 70%;
 }
 
 // Servicios
-
-.bodyservicios header{
-    margin-bottom: 70px;
-}
 
 .bodyservicios main h2{
     color: #eaedef;

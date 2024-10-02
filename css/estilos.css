@@ -60,15 +60,6 @@ main section h2 {
   .hero p {
     font-size: 25px; }
 
-.muestra {
-  display: flex;
-  justify-content: space-between; }
-
-.desc {
-  border: 2px solid red;
-  margin-left: 5px;
-  padding: 10px; }
-
 .heronosotros {
   text-align: center;
   margin-top: 100px; }
@@ -101,10 +92,7 @@ main section h2 {
 
 .productos2 img {
   width: 100%;
-  height: 80%; }
-
-.bodyservicios header {
-  margin-bottom: 70px; }
+  height: 70%; }
 
 .bodyservicios main h2 {
   color: #eaedef;
@@ -193,14 +181,38 @@ footer {
 footer section h2 img {
   height: 20px; }
 
+.footercontacto {
+  padding-top: 100px; }
+
 @media screen and (max-width: 1050px) {
   .mainproductos .contenedor1 {
     display: flex; }
-    .mainproductos .contenedor1 .productos1 .productos2 {
-      height: 150px;
-      width: 150px; }
-      .mainproductos .contenedor1 .productos1 .productos2 p {
-        font-size: 10px; } }
+    .mainproductos .contenedor1 .productos1 {
+      padding-bottom: 15px; }
+      .mainproductos .contenedor1 .productos1 .productos2 {
+        height: 150px;
+        width: 150px; }
+        .mainproductos .contenedor1 .productos1 .productos2 p {
+          font-size: 15px; }
+  .mainservicios {
+    padding-bottom: 110px; }
+    .mainservicios .servicios1 .servicios2 {
+      height: 250px;
+      width: 250px; }
+      .mainservicios .servicios1 .servicios2 p {
+        font-size: 15px; }
+  .footercontacto {
+    padding-top: 110px; } }
+
+@media screen and (max-width: 880px) {
+  .mainservicios {
+    display: inline;
+    align-items: center; }
+    .mainservicios .servicios1 .servicios2 {
+      height: 350px;
+      width: 350px; }
+      .mainservicios .servicios1 .servicios2 p {
+        font-size: 25px; } }
 
 @media screen and (max-width: 650px) {
   .header h1 {
@@ -213,14 +225,57 @@ footer section h2 img {
         padding: 2px;
         font-size: 15px; }
   .hero img {
-    height: 500px; }
+    padding-top: 25px;
+    height: 590px; }
   .hero p {
-    font-size: 15px; }
+    font-size: 15px;
+    padding-top: 25px; }
   .heronosotros img {
     height: 200px; }
   .descripcion p {
-    font-size: 15px; }
+    font-size: 15px;
+    padding-bottom: 30px; }
   .mainproductos {
     align-items: center; }
+    .mainproductos .contenedor1 {
+      display: flex; }
+      .mainproductos .contenedor1 .productos1 {
+        padding-bottom: 25px; }
+  form {
+    width: 400px; }
+    form label {
+      font-size: 15px;
+      width: 90px; }
+    form #nombre, form #apellidos, form #email, form #asunto {
+      width: 180px; }
+  .footercontacto {
+    padding-top: 130px; }
   footer section h2 {
     font-size: 15px; } }
+
+@media screen and (max-width: 540px) {
+  .header {
+    display: inline; }
+    .header nav {
+      width: 85%;
+      margin: 10px; }
+  .heronosotros {
+    display: none; }
+  .descripcion {
+    margin-top: 50px; }
+  .mainproductos .contenedor1 {
+    display: inline; }
+  form {
+    width: 310px; }
+    form label {
+      font-size: 15px;
+      width: 140px; }
+    form #nombre, form #apellidos, form #email, form #asunto {
+      width: 230px;
+      font-size: 15px; }
+  .footercontacto {
+    padding-top: 50px; }
+  footer {
+    margin-top: 230px; }
+    footer section h2 {
+      font-size: 15px; } }
