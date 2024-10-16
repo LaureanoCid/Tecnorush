@@ -178,15 +178,41 @@ function comprarProductos(cant, lista, monto) {
             }
             break;
 
-            //Compra para -- PLACAS DE VIDEO 
+        //Compra para -- PLACAS DE VIDEO 
+        case 5:
+            op_prod = parseInt(prompt("Presione la opcion deseada: \n1. AMD RX6800XT - $970.000 \n2. Nvidia RTX 3090 - $1.260.000 \n3. Nvidia Rtx 4070 Super - $1.400.000 "));
+            switch (op_prod) {
+                case 1:
+                    alert("AMD RX6800XT agregado a su carrito");
+                    cant++;
+                    monto += 970.000;
+                    lista += "\n" + cant + " AMD RX6800XT - $970.000";
+                    break;
+                case 2:
+                    alert("Nvidia RTX 3090 agregado a su carrito");
+                    cant++;
+                    monto += 1260000;
+                    lista += "\n" + cant + " Nvidia RTX 3090 - $1.260.000";
+                    break;
+                case 3:
+                    alert("Nvidia Rtx 4070 Super agregado a su carrito");
+                    cant++;
+                    monto += 1400000;
+                    lista += "\n" + cant + " Nvidia Rtx 4070 Super - $1.400.000";
+                    break;
+                default:
+                    alert("Opcion incorrecta");
+                    break;
+            }
+            break;
 
-            //Compra para -- MOTHERBOARDS 
+        //Compra para -- MOTHERBOARDS 
 
-            //Compra para -- MOUSES 
+        //Compra para -- MOUSES 
 
-            //Compra para -- MEMORIAS RAM 
+        //Compra para -- MEMORIAS RAM 
 
-            //Compra para -- TECLADOS 
+        //Compra para -- TECLADOS 
 
         default:
             alert("Opcion incorrecta");
@@ -194,7 +220,7 @@ function comprarProductos(cant, lista, monto) {
     }
     alert(lista);
 }
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
