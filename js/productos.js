@@ -150,6 +150,44 @@ function comprarProductos(cant, lista, monto) {
             }
             break;
 
+            //Compra para -- ALMACENAMIENTO 
+            case 4:
+            op_prod = parseInt(prompt("Presione la opcion deseada: \n1. SSD Kingston 1TB - $100.000 \n2. SSD Samsung 860 EVO 1TB - $790.000 \n3. SSD M.2 Western Digital 1TB - $750.000 "));
+            switch (op_prod) {
+                case 1:
+                    alert("SSD Kingston 1TB agregado a su carrito");
+                    cant++;
+                    monto += 100.000;
+                    lista += "\n" + cant + " SSD Kingston 1TB - $100 .000";
+                    break;
+                case 2:
+                    alert("SSD Samsung 860 EVO 1TB agregado a su carrito");
+                    cant++;
+                    monto += 790.000;
+                    lista += "\n" + cant + " SSD Samsung 860 EVO 1TB - $790.000";
+                    break;
+                case 3:
+                    alert("SSD M.2 Western Digital 1TB agregado a su carrito");
+                    cant++;
+                    monto += 750.000;
+                    lista += "\n" + cant + " SSD M.2 Western Digital 1TB - $750.000";
+                    break;
+                default:
+                    alert("Opcion incorrecta");
+                    break;
+            }
+            break;
+
+            //Compra para -- PLACAS DE VIDEO 
+
+            //Compra para -- MOTHERBOARDS 
+
+            //Compra para -- MOUSES 
+
+            //Compra para -- MEMORIAS RAM 
+
+            //Compra para -- TECLADOS 
+
         default:
             alert("Opcion incorrecta");
             break;
