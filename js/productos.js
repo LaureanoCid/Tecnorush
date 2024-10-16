@@ -14,7 +14,7 @@ let monto = 0;
 alert("Bienvenid@ al carro de compras de TECNORUSH!");
 
 // Login con su respectivas validaciones
-//login();
+login();
 
 // MENU del carrito
 do {
@@ -150,8 +150,8 @@ function comprarProductos(cant, lista, monto) {
             }
             break;
 
-            //Compra para -- ALMACENAMIENTO 
-            case 4:
+        //Compra para -- ALMACENAMIENTO 
+        case 4:
             op_prod = parseInt(prompt("Presione la opcion deseada: \n1. SSD Kingston 1TB - $100.000 \n2. SSD Samsung 860 EVO 1TB - $790.000 \n3. SSD M.2 Western Digital 1TB - $750.000 "));
             switch (op_prod) {
                 case 1:
