@@ -96,6 +96,9 @@ function comprarProductos(cant, lista, monto) {
             break;
     }
     alert(lista);
+    console.log(cant);
+    console.log(monto);
+    console.log(lista);
 }
 
 
